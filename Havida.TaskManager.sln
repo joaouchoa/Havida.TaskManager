@@ -5,6 +5,12 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Havida.TaskManager.API", "Havida.TaskManager.API\Havida.TaskManager.API.csproj", "{4CCFB9FD-5383-479F-8383-A1D7566D713B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Havida.TaskManager.Application", "Havida.TaskManager.Application\Havida.TaskManager.Application.csproj", "{9843CF42-2253-43AA-A487-16542D6A8581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Havida.TaskManager.Infrastructure", "Havida.TaskManager.Infrastructure\Havida.TaskManager.Infrastructure.csproj", "{44D6536E-4CA9-4A5A-8045-549B88676592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Havida.TaskManager.Domain", "Havida.TaskManager.Domain\Havida.TaskManager.Domain.csproj", "{2326F1B0-A19B-4A3E-BA09-E7E3AB5FE0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{4CCFB9FD-5383-479F-8383-A1D7566D713B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCFB9FD-5383-479F-8383-A1D7566D713B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCFB9FD-5383-479F-8383-A1D7566D713B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9843CF42-2253-43AA-A487-16542D6A8581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9843CF42-2253-43AA-A487-16542D6A8581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9843CF42-2253-43AA-A487-16542D6A8581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9843CF42-2253-43AA-A487-16542D6A8581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D6536E-4CA9-4A5A-8045-549B88676592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D6536E-4CA9-4A5A-8045-549B88676592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D6536E-4CA9-4A5A-8045-549B88676592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D6536E-4CA9-4A5A-8045-549B88676592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2326F1B0-A19B-4A3E-BA09-E7E3AB5FE0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2326F1B0-A19B-4A3E-BA09-E7E3AB5FE0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2326F1B0-A19B-4A3E-BA09-E7E3AB5FE0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2326F1B0-A19B-4A3E-BA09-E7E3AB5FE0FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
