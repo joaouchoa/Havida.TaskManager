@@ -1,0 +1,6 @@
+@Havida.TaskManager.API_HostAddress = http://localhost:5128
+
+GET {{Havida.TaskManager.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
